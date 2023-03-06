@@ -1,0 +1,70 @@
+.signup{
+    width: 30%;
+    margin: auto;
+    border: 0px solid white;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+.pic img{
+    border-radius: 50%;
+}
+#p_tag{
+    color: red;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+#formNote{
+    margin: 20px;
+}
+input[type=submit]{
+    width: 100%;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #4775ec;
+}
+input[type=submit]:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#nameBox,#emailBox,#collegeBox,#branchBox,#semesterBox{
+    position: relative;
+    border: 0px solid yellow;
+}
+input{
+    border: 0px solid gray;
+    border-radius: 6px;
+    position: relative;
+    color: white;
+    background-color: transparent;
+}
+  input:focus{
+    color: white;
+    background-color: transparent;
+  }
+  label {
+    position: absolute;
+    bottom:3.5em;
+    z-index: 1;
+    left: 2em;
+    background-color:#1e1e1e;
+    padding: 0 5px;
+    color: white;
+  }
+  #buttonSubmit{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 0px solid white;
+  }
+
+  @media (max-width:480px){
+    .signup{
+        width: 70%;
+        margin: 0;
+        border: 1px solid black;
+    }
+  }
